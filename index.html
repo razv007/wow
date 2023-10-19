@@ -1,0 +1,1549 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin Sans"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("SP5-WWOk8PSPbPscg");
+      })();
+    </script>
+  </head>
+  <body class="light-mode">
+    <div class="all">
+      <!-- Header -->
+      <div id="header">
+        <div class="unu">
+          <div id="unu" class="header active-nav-bar">
+            <div class="nav-bar">
+            <div class="brand">
+              <a href="#prezentare" class="control active-btn" data-id="sectiunea1" data-navbar="unu" data-buton="buton1">
+                <div class="logo_box">
+                  <img class="logo" src="img/logo.jpg">
+                  <h1 class="logo_text">Edico</h1>
+                </div>
+              </a>
+            </div>
+            <div class="nav-list">
+              <div class="hamburger"><div class="bar"></div></div>
+              <ul>
+                <li><a href="#carusel" data-after="Service">Carusel</a></li>
+                <li><a href="#prezentare" data-after="About">Produs</a></li>
+                <li><a href="#news" data-after="Contact">Năutați</a></li>
+                <li><a href="#shop" class="control active-btn" data-id="sectiunea2" data-navbar="doi" data-buton="buton2">Magazin</a></li>
+                <li><a href="#contact" class="control active-btn" data-id="sectiunea3" data-navbar="trei" data-buton="buton3">Comandă</a></li>
+              </ul>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="doi">
+        <div class="header" id="doi">
+          <div class="nav-bar">
+            <div class="brand">
+              <a href="#prezentare" class="control active-btn" data-id="sectiunea1" data-navbar="unu" data-buton="buton1"> 
+                <div class="logo_box">
+                  <img class="logo" src="img/logo.jpg">
+                  <h1 class="logo_text">Edico</h1>
+                </div>
+              </a>
+            </div>
+            <div class="nav-list">
+              <div class="hamburger"><div class="bar"></div></div>
+              <ul>
+                <li><a href="#hero" class="control active-btn" data-id="sectiunea1" data-navbar="unu" data-buton="buton1">Prezentare</a></li>
+                <li><a href="#shop" class="control active-btn" data-id="sectiunea2" data-navbar="doi" data-buton="buton2">Magazin</a></li>
+                <li><a href="#contact" class="control active-btn" data-id="sectiunea3" data-navbar="trei" data-buton="buton3">Comandă</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="trei">
+        <div class="header" id="trei">
+          <div class="nav-bar">
+            <div class="brand">
+              <a href="#prezentare" class="control active-btn" data-id="sectiunea1" data-navbar="unu" data-buton="buton1"> 
+                <div class="logo_box">
+                  <img class="logo" src="img/logo.jpg">
+                  <h1 class="logo_text">Edico</h1>
+                </div>
+              </a>
+            </div>
+            <div class="nav-list">
+              <div class="hamburger"><div class="bar"></div></div>
+              <ul>
+                <li><a href="#hero" class="control active-btn" data-id="sectiunea1" data-navbar="unu" data-buton="buton1">Prezentare</a></li>
+                <li><a href="#shop" class="control active-btn" data-id="sectiunea2" data-navbar="doi" data-buton="buton2">Magazin</a></li>
+                <li><a href="#contact" class="control active-btn" data-id="sectiunea3" data-navbar="trei" data-buton="buton3">Comandă</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <!-- End Header -->
+
+      <!-- Hero Section  -->
+      <section id="sectiunea1" class="sectiune active-sectiune">
+        <div id="hero">
+          <div class="hero container">
+            <div>
+              <h1>Succesul tau <span></span></h1>
+              <h1>este succesul nostru cu <span></span></h1>
+              <h1>MedicoFlashCards <span></span></h1>
+              <a href="#shop" class="control cta" data-id="sectiunea2" data-navbar="doi" data-buton="buton2">Magazin</a>
+            </div>
+          </div>
+        </div>
+        <!-- End Hero Section  -->
+        <div class="container1 carusel" id="carusel">
+          <div class="main-title">
+            <h2>
+              Carusel <span>FlashCarduri</span
+              ><span class="bg-text">Prezentare cartonase</span>
+            </h2>
+          </div>
+          <div class="carusel_text">
+            <b>Glisează</b> prin cartonașe și alege <b>varianta corectă</b> din cele patru posibile.
+            Vei primi <b>feedback</b> complet instant asupra raspunsului ales.
+          </div>
+          <div class="tipuri_carusel">
+            <div class="container-carusel">
+              <div class="card-carousel">
+                <div class="card" id="1"></div>
+                <div class="card" id="2"></div>
+                <div class="card" id="3"></div>
+                <div class="card" id="4"></div>
+                <div class="card" id="5"></div>
+                <div class="card" id="6"></div>
+                <div class="card" id="7"></div>
+                <div class="card" id="8"></div>
+                <div class="card" id="9"></div>
+              </div>
+            </div>
+            <div class="button-wrapper">
+              <div id="score-counter">
+                <p class="score-text">
+                  CORECT: <span id="numar_corecte"></span>/9
+                </p>
+              </div>
+            </div>
+            <div class="container-text">
+              <div class="question" id="1">
+                <main>
+                  <div class="text-container">
+                    <h3>Alege varianta corectă:</h3>
+                  </div>
+                  <form>
+                    <div class="quiz-options">
+                      <input
+                        type="radio"
+                        class="input-radio one-a jshdgdgwgdwfdfwdwjfdjwwdwdco"
+                        id="one-a"
+                        name="yes-1"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwco" for="one-a">
+                        <span class="alphabet">A</span
+                        ><span class="text-question"
+                          >totalitatea proceselor care contribuie la menținerea
+                          parametrilor mediului intern al organismului în limite
+                          normale </span
+                        ><img
+                          class="icon jdsjkefkefkefefexco"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588518387/jdsjkefkefkefefexco.svg"
+                          alt=""
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio one-b jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="one-b"
+                        name="yes-1"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="one-b">
+                        <span class="alphabet">B</span
+                        ><span class="text-question"
+                          >doar unele procese care contribuie la menținerea
+                          parametrilor mediului intern al organismului în limite
+                          normale </span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio one-c jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="one-c"
+                        name="yes-1"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="one-c">
+                        <span class="alphabet">C</span
+                        ><span class="text-question"
+                          >proprietatea unor celule de a transmite stimuli
+                          dintr-o parte în alta a corpului</span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio one-d jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="one-d"
+                        name="yes-1"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="one-d">
+                        <span class="alphabet">D</span
+                        ><span class="text-question"
+                          >totalitatea proceselor care contribuie la menținerea
+                          parametrilor mediului extern al organismului în limite
+                          normale </span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                    </div>
+                  </form>
+                </main>
+              </div>
+              <div class="question" id="2">
+                <main>
+                  <div class="text-container">
+                    <h3>Alege varianta corectă:</h3>
+                  </div>
+                  <form>
+                    <div class="quiz-options">
+                      <input
+                        type="radio"
+                        class="input-radio two-a jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="two-a"
+                        name="no-2"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="two-a">
+                        <span class="alphabet">A</span
+                        ><span class="text-question"
+                          >degradează particulele nutritive din exteriorul
+                          celulei </span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio two-b jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="two-b"
+                        name="no-2"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="two-b">
+                        <span class="alphabet">B</span
+                        ><span class="text-question"
+                          >lizozomul nu are enzime</span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio two-c jshdgdgwgdwfdfwdwjfdjwwdwdco"
+                        id="two-c"
+                        name="no-2"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwco" for="two-c">
+                        <span class="alphabet">C</span
+                        ><span class="text-question"
+                          >degradează particulele nutritive pătrunse în celulă
+                          și pun la dispoziție celulei produșii finali </span
+                        ><img
+                          class="icon jdsjkefkefkefefexco"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588518387/jdsjkefkefkefefexco.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio two-b jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="two-d"
+                        name="no-2"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="two-b">
+                        <span class="alphabet">D</span
+                        ><span class="text-question"
+                          >degradează particulele nutritive pătrunse în celulă
+                          și pun la dispoziție celulei produșii
+                          intermediari</span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                    </div>
+                  </form>
+                </main>
+              </div>
+              <div class="question" id="3">
+                <main>
+                  <div class="text-container">
+                    <h3>Alege varianta corectă:</h3>
+                  </div>
+                  <form>
+                    <div class="quiz-options">
+                      <input
+                        type="radio"
+                        class="input-radio three-a jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="three-a"
+                        name="no-3"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="three-a">
+                        <span class="alphabet">A</span
+                        ><span class="text-question">colagenul</span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio three-b jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="three-b"
+                        name="no-3"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="three-b">
+                        <span class="alphabet">B</span
+                        ><span class="text-question">carbonatul de calciu</span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio three-c jshdgdgwgdwfdfwdwjfdjwwdwdco"
+                        id="three-c"
+                        name="no-3"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwco" for="three-c">
+                        <span class="alphabet">C</span
+                        ><span class="text-question"
+                          >o sare minerală - fosfatul de calciu, combinat cu
+                          cantități mici de hidroxid și carbonat de Ca</span
+                        ><img
+                          class="icon jdsjkefkefkefefexco"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588518387/jdsjkefkefkefefexco.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio three-d jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="three-d"
+                        name="no-3"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="three-d">
+                        <span class="alphabet">D</span
+                        ><span class="text-question"
+                          >o sare minerală - fosfatul de calciu, combinat cu
+                          cantități mari de hidroxid și carbonat de Ca</span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                    </div>
+                  </form>
+                </main>
+              </div>
+              <div class="question" id="4">
+                <main>
+                  <div class="text-container">
+                    <h3>Alege varianta corectă:</h3>
+                  </div>
+                  <form>
+                    <div class="quiz-options">
+                      <input
+                        type="radio"
+                        class="input-radio four-a jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="four-a"
+                        name="no-4"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="four-a">
+                        <span class="alphabet">A</span>
+                        <span class="text-question">sarcomorul </span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio four-b jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="four-b"
+                        name="no-4"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="four-b">
+                        <span class="alphabet">B</span>
+                        <span class="text-question">desmozomul</span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio four-c jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="four-c"
+                        name="no-4"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="four-c">
+                        <span class="alphabet">C</span>
+                        <span class="text-question">celula musculară</span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio four-d jshdgdgwgdwfdfwdwjfdjwwdwdco"
+                        id="four-d"
+                        name="no-4"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwco" for="four-d">
+                        <span class="alphabet">D</span>
+                        <span class="text-question">Sarcomerul</span
+                        ><img
+                          class="icon jdsjkefkefkefefexco"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588518387/jdsjkefkefkefefexco.svg"
+                        />
+                      </label>
+                    </div>
+                  </form>
+                </main>
+              </div>
+              <div class="question" id="5">
+                <main>
+                  <div class="text-container">
+                    <h3>Alege varianta corectă:</h3>
+                  </div>
+                  <form>
+                    <div class="quiz-options">
+                      <input
+                        type="radio"
+                        class="input-radio five-a jshdgdgwgdwfdfwdwjfdjwwdwdco"
+                        id="five-a"
+                        name="no-5"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwco" for="five-a">
+                        <span class="alphabet">A</span
+                        ><span class="text-question"
+                          >în regenerarea neuronilor lezați</span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588518387/jdsjkefkefkefefexco.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio five-b jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="five-b"
+                        name="no-5"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="five-b">
+                        <span class="alphabet">B</span
+                        ><span class="text-question"
+                          >în regenerarea neuronilor amielinici din SNP</span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio five-c jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="five-c"
+                        name="no-5"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="five-c">
+                        <span class="alphabet">C</span>
+                        <span class="text-question"
+                          >în regenerarea astrocitelor</span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio five-d jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="five-d"
+                        name="no-5"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="five-d">
+                        <span class="alphabet">D</span
+                        ><span class="text-question"
+                          >în regenerarea neuronilor amielinici din SNC</span
+                        ><img
+                          class="icon jdsjkefkefkefefexco"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                    </div>
+                  </form>
+                </main>
+              </div>
+              <div class="question" id="6">
+                <main>
+                  <div class="text-container">
+                    <h3>Alege varianta corectă:</h3>
+                  </div>
+                  <form>
+                    <div class="quiz-options">
+                      <input
+                        type="radio"
+                        class="input-radio six-a jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="six-a"
+                        name="no-6"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="six-a">
+                        <span class="alphabet">A</span
+                        ><span class="text-question">doar de simț</span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio six-b jshdgdgwgdwfdfwdwjfdjwwdwdco"
+                        id="six-b"
+                        name="no-6"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwco" for="six-b">
+                        <span class="alphabet">B</span
+                        ><span class="text-question"
+                          >simț, mișcări, transpirație</span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588518387/jdsjkefkefkefefexco.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio six-c jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="six-c"
+                        name="no-6"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="six-c">
+                        <span class="alphabet">C</span
+                        ><span class="text-question"
+                          >văz, auz, miros, gust, mișcări oculare</span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio six-d jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="six-d"
+                        name="no-6"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="six-d">
+                        <span class="alphabet">D</span
+                        ><span class="text-question"
+                          >simț, mișcări și echilibru</span
+                        ><img
+                          class="icon jdsjkefkefkefefexco"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                    </div>
+                  </form>
+                </main>
+              </div>
+              <div class="question" id="7">
+                <main>
+                  <div class="text-container">
+                    <h3>Alege varianta corectă:</h3>
+                  </div>
+                  <form>
+                    <div class="quiz-options">
+                      <input
+                        type="radio"
+                        class="input-radio seven-a jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="seven-a"
+                        name="no-7"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="seven-a">
+                        <span class="alphabet">A</span
+                        ><span class="text-question"
+                          >numărul de vibrații din urechea internă -
+                          cicli/hertzi </span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio seven-b jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="seven-b"
+                        name="no-7"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="seven-b">
+                        <span class="alphabet">B</span
+                        ><span class="text-question"
+                          >numărul de vibrații ale aerului într-o unitate de
+                          timp - decibeli</span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio seven-c jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="seven-c"
+                        name="no-7"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="seven-c">
+                        <span class="alphabet">C</span
+                        ><span class="text-question"
+                          >amplititudinea undei sonore - cicli/hertzi</span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio seven-d jshdgdgwgdwfdfwdwjfdjwwdwdco"
+                        id="seven-d"
+                        name="no-7"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwco" for="seven-d">
+                        <span class="alphabet">D</span
+                        ><span class="text-question"
+                          >numărul de vibrații ale aerului într-o unitate de
+                          timp - cicli/hertzi</span
+                        ><img
+                          class="icon jdsjkefkefkefefexco"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588518387/jdsjkefkefkefefexco.svg"
+                        />
+                      </label>
+                    </div>
+                  </form>
+                </main>
+              </div>
+              <div class="question" id="8">
+                <main>
+                  <div class="text-container">
+                    <h3>Alege varianta corectă:</h3>
+                  </div>
+                  <form>
+                    <div class="quiz-options">
+                      <input
+                        type="radio"
+                        class="input-radio eight-a jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id=":eight-a"
+                        name="no-8"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for=":eight-a">
+                        <span class="alphabet">A</span
+                        ><span class="text-question">albastră - roșiatică</span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio eight-b jshdgdgwgdwfdfwdwjfdjwwdwdco"
+                        id="eight-b"
+                        name="no-8"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwco" for="eight-b">
+                        <span class="alphabet">B</span
+                        ><span class="text-question">albastră-violacee</span
+                        ><img
+                          class="icon jdsjkefkefkefefexco"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588518387/jdsjkefkefkefefexco.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio eight-c jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="eight-c"
+                        name="no-8"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="eight-c">
+                        <span class="alphabet">C</span
+                        ><span class="text-question">roșii</span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio eight-d jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="eight-d"
+                        name="no-8"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="eight-d">
+                        <span class="alphabet">D</span
+                        ><span class="text-question"
+                          >albastru - purpuriu închis</span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                    </div>
+                  </form>
+                </main>
+              </div>
+              <div class="question" id="9">
+                <main>
+                  <div class="text-container">
+                    <h3>Alege varianta corectă:</h3>
+                  </div>
+                  <form>
+                    <div class="quiz-options">
+                      <input
+                        type="radio"
+                        class="input-radio nine-a jshdgdgwgdwfdfwdwjfdjwwdwdco"
+                        id="nine-a"
+                        name="no-9"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="nine-a">
+                        <span class="alphabet">A</span
+                        ><span class="text-question">asigură transmiterea impulsurilor necesare
+                          contracției</span
+                        ><img
+                          class="icon jdsjkefkefkefefexco"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588518387/jdsjkefkefkefefexco.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio nine-b jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="nine-b"
+                        name="no-9"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwco" for="nine-b">
+                        <span class="alphabet">B</span
+                        ><span class="text-question"
+                          >asigură transmiterea impulsurilor nervoase necesare
+                          contracției</span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio nine-c jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="nine-c"
+                        name="no-9"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="nine-c">
+                        <span class="alphabet">C</span
+                        ><span class="text-question"
+                          >asigură transmiterea impulsurilor necesare relaxării
+                          ventriculare</span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                      <input
+                        type="radio"
+                        class="input-radio nine-d jshdgdgwgdwfdfwdwjfdjwwdwdin"
+                        id="nine-d"
+                        name="no-9"
+                        required=""
+                      />
+                      <label class="radio-label jsjwjdwjdwjdwin" for="nine-d">
+                        <span class="alphabet">D</span
+                        ><span class="text-question"
+                          >în autoritmicitate</span
+                        ><img
+                          class="icon jfdedgwfzexf4hjin"
+                          src="https://res.cloudinary.com/dvhndpbun/image/upload/v1588517753/jfdedgwfzexf4hjin.svg"
+                        />
+                      </label>
+                    </div>
+                  </form>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container1 carusel" id="cartonase">
+          <div class="main-title">
+            <h2>
+              Prezentare <span>cartonașe</span
+              ><span class="bg-text">Carusel FlashCarduri</span>
+            </h2>
+          </div>
+          <div class="carusel-container">
+            <div class="carusel-container_poza">
+              <div class="left-carusel">
+                <div class="carusel-img">
+                  <img class="image_carusel" src="img/poza_cartonase.jpg" />
+                </div>
+              </div>
+              <div class="right-carusel">
+                <h4>Descriere:</h4>
+                <br />
+                <p>
+                  &emsp; Suntem aici să vă ajutăm să vă transformați visul de a deveni medic în realitate.
+Cu flashcardurile noastre de <b class="rosu">anatomie</b>, <b class="rosu">chimie</b> și <b class="rosu">fizică</b> pentru Admiterea la Facultatea de Medicină, veți descoperi că învățarea poate fi <b>distractivă</b>, <b>captivantă</b> și mai ales, <b>eficientă</b>.<br><br>
+&emsp;Noi ne ocupăm de <b>sintetizarea informației</b>, astfel încât voi să vă puteți concentra pe <b>învățare</b> și <b>asimilare</b>.<br><br>
+&emsp;Cu o abordare atent structurată și cu conținutul cheie sub formă de <b>întrebări și răspunsuri</b>, vă oferim instrumentele necesare pentru a <b>învăța rapid</b>, pentru a memora și pentru a vă pregăti într-un mod <b>inteligent</b>. Elevii care visează să studieze <b class="rosu">medicina</b> vor găsi în seturile noastre de <b class="rosu">flashcarduri</b> nu doar informații esențiale, ci și o cale către <b>succes</b>. 
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--<div class="container me" id="me">
+      <div class="me-content">
+          <div class="left-me">
+              <div class="h-shape"></div>
+              <div class="image">
+                  <img src="img/me1.png" alt="">
+              </div>
+          </div>
+          <div class="right-me">
+              <h1 class="name">
+                  Salut, eu sunt <span>Iordachescu Gabriel</span> !
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, libero?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque blanditiis sed aut!
+              </p>
+              <div class="btn-con">
+                  <a href="" class="main-btn">
+                      <span class="btn-text">Download CV</span>
+                      <span class="btn-icon"><i class="fas fa-download"></i></span>
+                  </a>
+              </div>
+          </div>
+      </div>
+</div>-->
+        <!-- Service Section -->
+        <!-- About Section -->
+        <div class="container1 about" id="prezentare">
+          <div class="main-title">
+            <h2>
+              Despre <span>produs</span
+              ><span class="bg-text">Date generale</span>
+            </h2>
+          </div>
+          <div class="about-container">
+            <div class="left-about">
+              <h4>MedicoFlashCards</h4>
+              <p>
+                Indiferent dacă sunteți la început de drum sau ați terminat de parcurs materia, avem <b>pachete</b> variate pentru a vă potrivi nevoilor. Echipa noastră se angajează să vă ofere <b>calitate</b>, <b>design atrăgător</b> și <b>conținut detaliat</b>, pentru ca fiecare moment de învățare să fie cu adevărat valoros. 
+<br><br>Așadar, dacă sunteți un elev <b>dedicat</b>, <b>pasionat de medicină</b> și <b>determinat</b> să vă atingeți obiectivele, suntem aici pentru voi. <b>Împreună</b>, putem transforma munca în reușită și <b>visurile în realitate</b>.  
+
+              </p>
+            </div>
+            <div class="right-about">
+              <div class="about-item">
+                <div class="abt-text">
+                  <p class="large-text">10+</p>
+                  <p class="small-text">
+                    Produse <br />
+                    Finalizate
+                  </p>
+                </div>
+              </div>
+              <div class="about-item">
+                <div class="abt-text">
+                  <p class="large-text">6+</p>
+                  <p class="small-text">
+                    Luni de concepere <br />
+                    a produsului
+                  </p>
+                </div>
+              </div>
+              <div class="about-item">
+                <div class="abt-text">
+                  <p class="large-text">73+</p>
+                  <p class="small-text">
+                    Elevi <br />
+                    Ajutați
+                  </p>
+                </div>
+              </div>
+              <div class="about-item">
+                <div class="abt-text">
+                  <p class="large-text">100+</p>
+                  <p class="small-text">Recenzii de la<br />Clienți</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="contact">
+          <div class="contact container">
+            <div class="container1" id="news">
+              <div class="news-content">
+                <div class="main-title">
+                  <h2>
+                    Ultimile <span> Năutați</span
+                    ><span class="bg-text">Postari Instagram</span>
+                  </h2>
+                </div>
+                <div class="news">
+                  <div class="new">
+                    <a
+                      href="https://www.instagram.com/p/CxTKS8Ft5uA/?img_index=1" target="_blank" rel="noopener noreferrer"
+                      ><img src="img/insta1.PNG" alt=""
+                    /></a>
+                    <div class="new-text">
+                      <h4>Cum sa reții acizii dicarboxilici?</h4>
+                    </div>
+                  </div>
+                  <div class="new">
+                    <a href="https://www.instagram.com/p/CkVtz94Nrvn/?img_index=1" target="_blank" rel="noopener noreferrer"
+                      ><img src="img/insta2.PNG" alt=""
+                    /></a>
+                    <div class="new-text">
+                      <h4>Top 5 cele mai mari salarii medicină</h4>
+                    </div>
+                  </div>
+                  <div class="new">
+                    <a
+                      href="https://www.instagram.com/p/CmTtdAyNsiJ/?img_index=1" target="_blank" rel="noopener noreferrer"
+                      ><img src="img/insta5.PNG" alt=""
+                    /></a>
+                    <div class="new-text">
+                      <h4>Care au fost mediile de intrare la faculațile de medicina? </h4>
+                    </div>
+                  </div>
+                  <div class="new">
+                    <a
+                      href="https://www.instagram.com/p/CmTtdAyNsiJ/?img_index=1" target="_blank" rel="noopener noreferrer"
+                      ><img src="img/insta4.PNG" alt=""
+                    /></a>
+                    <div class="new-text">
+                      <h4>Ce facultăți dau admiterea din Barron's?</h4>
+                    </div>
+                  </div>
+                  <div class="new">
+                    <a
+                      href="https://www.instagram.com/p/Cn_9_1INuD6/?img_index=1" target="_blank" rel="noopener noreferrer"
+                      ><img src="img/insta3.PNG" alt=""
+                    /></a>
+                    <div class="new-text">
+                      <h4>5 greșeli pe care le faci când înveți!</h4>
+                    </div>
+                  </div>
+                  <div class="new">
+                    <a
+                      href="https://www.instagram.com/p/CpVIjC8Nbuf/?img_index=1" target="_blank" rel="noopener noreferrer"
+                      ><img src="img/insta6.PNG" alt=""
+                    /></a>
+                    <div class="new-text">
+                      <h4>Care e cea mai bună metodă de a memora?</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="sectiunea2" class="sectiune">
+        <div class="shop section" id="shop">
+          <div class="container-shop">
+            <section class="shop section" id="shop">
+              <div class="main-title">
+                <h2>
+                  Care <span> pachet</span
+                  > ți se potrivește?<span class="bg-text">Date generale</span>
+                </h2>
+              </div>
+              <div class="shop_container_produse">
+              <div class="shop_filters">
+                <div class="domain_choose">
+                  <span class="filtru active_shop">Biologie</span>
+                  <span class="filtru black">Chimie</span>
+                  <span class="filtru black">Fizica</span>
+                  <span class="filtru black">Accesorii</span>
+                </div>
+              </div>
+              <div class="shop_filters2">
+                <div class="shopmenu">
+                  <span class="shop_item active_shop" data-filter="all">Toate</span>
+                  <span class="shop_item black" data-filter=".solo">Singular</span>
+                  <span class="shop_item black" data-filter=".pachet">Pachete</span>
+                </div>
+              </div>
+              <div class="spatiu_shop">
+              <div id="biologie" class="active_filtru">
+                <div class="shop_container1 grid">
+                  <div class="shop_card mix solo">
+                    <img src="assets/img/produs1.png" alt="" class="shop_img" />
+                    <h3 class="shop_title">Introducere in anatomie și fiziologie</h3>
+                    <div class="shop_card_flex">
+                          <div class="pret">42.00 Lei</div>
+                          <div class="add-to-cart" data-name="Introducere in anatomie și fiziologie" data-price="42.00" data-type="Biologie" data-index="1">
+                          <div class="icon-cart" style="float: left">
+                            <div class="cart-line-1" style="background-color: #ffffff"></div>
+                            <div class="cart-line-2" style="background-color: #ffffff"></div>
+                            <div class="cart-line-3" style="background-color: #ffffff"></div>
+                            <div class="cart-wheel" style="background-color: #ffffff"></div>
+                          </div>
+                          </div>
+                    </div>
+                    <div class="produs_item-details">
+                      <h3 class="details_title">Ce Găsești în Pachetul Nostru?</h3>
+                      <p class="details_description">
+                        <b>78 de flashcards detaliate</b>: Fiecare flashcard conține informații cheie, întrebări și răspunsuri, pentru o învățare eficientă.
+                      </p>
+                      <ul class="details_info">
+                        <li><b>Structură Logică</b> - <span>Informația este organizată într-o secvență logică, ușor de urmărit.</span></li>
+                        <li><b>Design Atrăgător</b> - <span>Flashcardurile noastre nu sunt doar utile, ci și plăcute din punct de vedere vizual.</span></li>
+                         <br>
+                        <li><b>Din ce manual și capitol?</b></li>
+                        <ul>
+                          <li>•	Manual Barron’s</li>
+                          <li>•	Capitolul 1 – Introducere în anatomie și fiziologie</li>
+                        </ul>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="shop_card mix solo">
+                    <img src="assets/img/produs2.png" alt="" class="shop_img" />
+                    <h3 class="shop_title">Celulele și fiziologia celulară</h3>
+                    <br>
+                    <div class="shop_card_flex">
+                      <div class="pret">45.00 Lei</div>
+                      <div class="add-to-cart" data-name="Celulele și fiziologia celulară" data-price="45.00" data-type="Biologie" data-index="2">
+                      <div class="icon-cart" style="float: left">
+                        <div class="cart-line-1" style="background-color: #ffffff"></div>
+                        <div class="cart-line-2" style="background-color: #ffffff"></div>
+                        <div class="cart-line-3" style="background-color: #ffffff"></div>
+                        <div class="cart-wheel" style="background-color: #ffffff"></div>
+                      </div>
+                      </div>
+                </div>
+                <div class="produs_item-details">
+                  <h3 class="details_title">Ce Găsești în Pachetul Nostru?</h3>
+                  <p class="details_description">
+                    <b>84 de flashcards detaliate</b>: Fiecare flashcard conține informații cheie, întrebări și răspunsuri, pentru o învățare eficientă.
+                  </p>
+                  <ul class="details_info">
+                    <li><b>Structură Logică</b> - <span>Informația este organizată într-o secvență logică, ușor de urmărit.</span></li>
+                    <li><b>Design Atrăgător</b> - <span>Flashcardurile noastre nu sunt doar utile, ci și plăcute din punct de vedere vizual.</span></li>
+                     <br>
+                    <li><b>Din ce manual și capitol?</b></li>
+                    <ul>
+                      <li>•	Manual Barron’s</li>
+                      <li>•	Capitolul 3 – Celulele și fiziologia celulară</li>
+                    </ul>
+                  </ul>
+                </div>
+                  </div>
+                  <div class="shop_card mix solo">
+                    <img src="assets/img/produs3.png" alt="" class="shop_img" />
+                    <h3 class="shop_title">Oasele și articulațiile</h3>
+                    <br>
+                    <div class="shop_card_flex">
+                      <div class="pret">50.00 Lei</div>
+                      <div class="add-to-cart" data-name="Oasele și articulațiile" data-price="50.00" data-type="Biologie" data-index="3">
+                      <div class="icon-cart" style="float: left">
+                        <div class="cart-line-1" style="background-color: #ffffff"></div>
+                        <div class="cart-line-2" style="background-color: #ffffff"></div>
+                        <div class="cart-line-3" style="background-color: #ffffff"></div>
+                        <div class="cart-wheel" style="background-color: #ffffff"></div>
+                      </div>
+                      </div>
+                </div>
+                <div class="produs_item-details">
+                  <h3 class="details_title">Ce Găsești în Pachetul Nostru?</h3>
+                  <p class="details_description">
+                    <b>96  de flashcards detaliate</b>: Fiecare flashcard conține informații cheie, întrebări și răspunsuri, pentru o învățare eficientă.
+                  </p>
+                  <ul class="details_info">
+                    <li><b>Structură Logică</b> - <span>Informația este organizată într-o secvență logică, ușor de urmărit.</span></li>
+                    <li><b>Design Atrăgător</b> - <span>Flashcardurile noastre nu sunt doar utile, ci și plăcute din punct de vedere vizual.</span></li>
+                     <br>
+                    <li><b>Din ce manual și capitol?</b></li>
+                    <ul>
+                      <li>•	Manual Barron’s</li>
+                      <li>•	Capitolul 6 – Oasele și articulațiile</li>
+                    </ul>
+                  </ul>
+                </div>
+                  </div>
+                  <div class="shop_card mix pachet">
+                    <img src="assets/img/produs4.png" alt="" class="shop_img" />
+                    <h3 class="shop_title">Sistemul nervos Barron’s – pachet</h3>
+                    <div class="shop_card_flex">
+                      <div class="pret">89.00 Lei</div>
+                      <div class="add-to-cart" data-name="Sistemul nervos Barron’s – pachet" data-price="89.00" data-type="Biologie" data-index="4">
+                      <div class="icon-cart" style="float: left">
+                        <div class="cart-line-1" style="background-color: #ffffff"></div>
+                        <div class="cart-line-2" style="background-color: #ffffff"></div>
+                        <div class="cart-line-3" style="background-color: #ffffff"></div>
+                        <div class="cart-wheel" style="background-color: #ffffff"></div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="produs_item-details">
+                      <h3 class="details_title">Ce Găsești în Pachetul Nostru?</h3>
+                      <p class="details_description">
+                        <b>295  de flashcards detaliate</b>: Fiecare flashcard conține informații cheie, întrebări și răspunsuri, pentru o învățare eficientă.
+                      </p>
+                      <ul class="details_info">
+                        <li><b>Structură Logică</b> - <span>Informația este organizată într-o secvență logică, ușor de urmărit.</span></li>
+                        <li><b>Design Atrăgător</b> - <span>Flashcardurile noastre nu sunt doar utile, ci și plăcute din punct de vedere vizual.</span></li>
+                         <br>
+                        <li><b>Din ce manual și capitol?</b></li>
+                        <ul>
+                          <li>•	Manual Barron’s</li>
+                          <li>•	Capitolul 10 - Țesutul nervos (149 flashcards)</li>
+                          <li>•	Capitolul 11 - Organizarea sistemului nervos (146 flashcards)</li>
+                        </ul>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="shop_card mix pachet">
+                    <img src="assets/img/produs5.png" alt="" class="shop_img" />
+                    <h3 class="shop_title">Sistemul nervos Corint – pachet</h3>
+                    <div class="shop_card_flex">
+                      <div class="pret">89.00 Lei</div>
+                      <div class="add-to-cart" data-name="Sistemul nervos Corint – pachet" data-price="89.00" data-type="Biologie" data-index="5">
+                      <div class="icon-cart" style="float: left">
+                        <div class="cart-line-1" style="background-color: #ffffff"></div>
+                        <div class="cart-line-2" style="background-color: #ffffff"></div>
+                        <div class="cart-line-3" style="background-color: #ffffff"></div>
+                        <div class="cart-wheel" style="background-color: #ffffff"></div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="produs_item-details">
+                      <h3 class="details_title">Ce Găsești în Pachetul Nostru?</h3>
+                      <p class="details_description">
+                        <b>267  de flashcards detaliate</b>: Fiecare flashcard conține informații cheie, întrebări și răspunsuri, pentru o învățare eficientă.
+                      </p>
+                      <ul class="details_info">
+                        <li><b>Structură Logică</b> - <span>Informația este organizată într-o secvență logică, ușor de urmărit.</span></li>
+                        <li><b>Design Atrăgător</b> - <span>Flashcardurile noastre nu sunt doar utile, ci și plăcute din punct de vedere vizual.</span></li>
+                         <br>
+                        <li><b>Din ce manual și capitol?</b></li>
+                        <ul>
+                          <li>•	Manual Corint</li>
+                          <li>•	Capitole – Sistemul nervos, Măduva spinării, Encefalul, Sistemul nervos vegetativ</li>
+                        </ul>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="shop_card mix pachet">
+                    <img src="assets/img/produs6.png" alt="" class="shop_img" />
+                    <h3 class="shop_title">Pachet începător Capitolele 1+3</h3>
+                    <div class="shop_card_flex">
+                      <div class="pret">58.00 Lei</div>
+                      <div class="add-to-cart" data-name="Pachet începător Capitolele 1+3" data-price="58.00" data-type="Biologie" data-index="6">
+                      <div class="icon-cart" style="float: left">
+                        <div class="cart-line-1" style="background-color: #ffffff"></div>
+                        <div class="cart-line-2" style="background-color: #ffffff"></div>
+                        <div class="cart-line-3" style="background-color: #ffffff"></div>
+                        <div class="cart-wheel" style="background-color: #ffffff"></div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="produs_item-details">
+                      <h3 class="details_title">Ce Găsești în Pachetul Nostru?</h3>
+                      <p class="details_description">
+                        <b>162  de flashcards detaliate</b>: Fiecare flashcard conține informații cheie, întrebări și răspunsuri, pentru o învățare eficientă.
+                      </p>
+                      <ul class="details_info">
+                        <li><b>Structură Logică</b> - <span>Informația este organizată într-o secvență logică, ușor de urmărit.</span></li>
+                        <li><b>Design Atrăgător</b> - <span>Flashcardurile noastre nu sunt doar utile, ci și plăcute din punct de vedere vizual.</span></li>
+                         <br>
+                        <li><b>Din ce manual și capitol?</b></li>
+                        <ul>
+                          <li>•	Manual Barron’s</li>
+                          <li>•	Capitolul 1 – Introducere în anatomie și fiziologie</li>
+                          <li>•	Capitolul 3 – Celulele și fiziologia celulară</li>
+                        </ul>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="chimie" class="disable_filtru">
+                <div class="shop_container2">
+                  <div class="curand">În curând...</div>
+                </div>
+              </div>
+              <div id="fizica" class="disable_filtru">
+                <div class="shop_container3">
+                  <div class="curand">În curând...</div>
+                </div>
+              </div>
+              <div id="accesorii" class="disable_filtru">
+                <div class="shop_container4">
+                       <div class="curand">În curând...</div>
+                </div>
+              </div>
+            </div>
+           </div> 
+            </section>  
+          </div>
+      </section>
+      <section id="sectiunea3" class="sectiune">
+        <div id="contact">
+          <div class="contact container">
+            <div class="main-title">
+              <h2>
+                Trimite <span>Comanda</span
+                ><span class="bg-text">Comanda Online</span>
+              </h2>
+            </div>
+            <div class="contact-content-con">
+              <form class="contact-form">
+                <div class="input-control i-c-2">
+                  <input
+                    id="nume"
+                    class="input_mail"
+                    type="text"
+                    name="nume"
+                    onclick="correct0()"
+                    required
+                    placeholder="NUME:"
+                  />
+                  <input
+                    id="prenume"
+                    class="input_mail"
+                    type="text"
+                    onclick="correct1()"
+                    required
+                    placeholder="PRENUME:"
+                  />
+                </div>
+                <div class="input-control">
+                  <input
+                    id="email"
+                    class="input_mail"
+                    type="email"
+                    onclick="correct2()"
+                    required
+                    placeholder="EMAIL:"
+                  />
+                </div>
+                <div class="input-control i-c-2">
+                  <input
+                    id="judet"
+                    class="input_mail"
+                    type="text"
+                    onclick="correct3()"
+                    required
+                    placeholder="JUDEȚ:"
+                  />
+                  <input
+                    id="localitate"
+                    class="input_mail"
+                    type="text"
+                    onclick="correct4()"
+                    required
+                    placeholder="LOCALITAtE:"
+                  />
+                </div>
+                <div class="input-control">
+                  <input
+                    id="adresa"
+                    class="input_mail"
+                    type="text"
+                    onclick="correct5()"
+                    required
+                    placeholder="ADRESA:"
+                  />
+                </div>
+                <div class="input-control i-c-2">
+                  <input
+                    id="cod"
+                    class="input_mail"
+                    type="text"
+                    onclick="correct6()"
+                    required
+                    placeholder="COD POȘTAL:"
+                  />
+                  <input
+                    id="telefon"
+                    class="input_mail"
+                    type="text"
+                    onclick="correct7()"
+                    required
+                    placeholder="TELEFON:"
+                  />
+                </div>
+                <div class="selectdiv">
+                  <label>
+                    <select id="gender" name="gender">
+                      <option selected>Metode de plată:</option>
+                      <option>Ramburs la curier - 19.00 ron</option>
+                      <option>Predare personală în Iași - Gratis</option>
+                    </select>
+                  </label>
+                </div>
+                <div id="mesaj" class="input-control">
+                  <textarea
+                    name=""
+                    id="detalii"
+                    class="input_mail"
+                    cols="15"
+                    rows="8"
+                    placeholder="Detalii suplimentare..."
+                  ></textarea>
+                </div>
+                <div class="suma_total">
+                  <div class="total grid">
+                    <div class="pret_total">
+                      <h4>Subtotal:&emsp;&emsp;<span class="subtotal"></span> ron</h4>
+                    </div>
+                    <div class="pret_total">
+                      <h4>Transport:  &emsp; <span class="transport">0</span> ron</h4>
+                    </div>
+                    <div class="pret_total">
+                      <h1>Total:&emsp;<span class="total-cart"></span> ron</h1>
+                    </div>
+                  </div>
+                  <button class="button-submit" onclick="sendMail()">
+                    <div class="tick"></div>
+                  </button>
+                </div>
+              </form>
+            </div>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="icon">
+                <img
+                src="https://img.icons8.com/bubbles/100/000000/phone.png"
+                />
+              </div>
+                <div class="contact-info">
+                  <h1>Telefon</h1>
+                  <h2>+40 770 169 188</h2>
+                </div>
+            </div>
+              <div class="contact-item">
+                <div class="icon">
+                  <img
+                    src="https://img.icons8.com/bubbles/100/000000/new-post.png"
+                  />
+                </div>
+                <div class="contact-info">
+                  <h1>Email</h1>
+                  <h2>medicoflashcards1@gmail.com</h2>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="icon">
+                  <img
+                  src="https://img.icons8.com/bubbles/100/000000/map-marker.png"
+                  />
+                </div>
+                <div class="contact-info">
+                  <h1>Adresa</h1>
+                  <h2>România Iași, Iași</h2>
+                </div>
+              </div>
+            </div>
+      </div>
+        <!-- End Contact Section -->
+        <!-- Footer -->
+      </section>
+      <div id="footer">
+        <div class="footer container">
+          <div class="brand">
+            <h1><span>F</span>lash <span>C</span>arduri</h1>
+          </div>
+          <h2>Învata usor și rapid!</h2>
+          <div class="social-icon">
+            <div class="social-item">
+              <a href="https://www.instagram.com/medico_flash_cards/" target="_blank" rel="noopener noreferrer"
+                ><img
+                  src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"
+              /></a>
+            </div>
+            <div class="social-item">
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=medicoflashcards1@gmail.com" target="_blank"
+                ><img
+                  src="https://img.icons8.com/bubbles/100/000000/gmail-new.png"
+              /></a>
+            </div>
+            <div class="social-item">
+              <a href="https://www.tiktok.com/@medico_flashcards?_t=8gZCKVCehqz&_r=1" target="_blank"
+                ><img
+                  src="https://img.icons8.com/bubbles/100/000000/tiktok.png"
+              /></a>
+            </div>
+            <div class="social-item">
+              <a href="#"
+                ><img
+                  src="https://img.icons8.com/bubbles/100/000000/discord.png"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="controls">
+        <a href="#hero" class="control active-btn" id="buton1" data-id="sectiunea1" data-navbar="unu" data-buton="buton1">
+          <i class="fas fa-home"></i>
+        </a>
+        <a href="#shop" class="control" id="buton2" data-id="sectiunea2" data-navbar="doi" data-buton="buton2">
+          <i class="fas fa-briefcase"></i>
+        </a>
+        <a href="#contact" class="control" id="buton3" data-id="sectiunea3" data-navbar="trei" data-buton="buton3">
+          <i class="fas fa-envelope-open"></i>
+        </a>
+      </div>
+      <div id="tray">
+        <div class="count">
+          <span class="total-count"></span>
+        </div>
+        <i class="fa fa-shopping-basket fa-2x"></i>
+      </div>
+      <div class="produs_popup_shop">
+        <div class="shopping-cart">
+          <div class="title">
+            <p>Coșul de cumpărături</p>
+            <span class="shop_produs_popup-close"><i class="uil-times"></i></span> 
+          </div>
+          <table class="show-cart table">
+                  
+          </table>
+          <div class="total">
+            <div class="total-box">
+              <div class="total-price-shop">Preț total: <span class="subtotal"></span> lei</div>
+              <a href="#contact" class="control button-buy" data-id="sectiunea3" data-navbar="trei" data-buton="buton3">Trimite comanda</a>
+            </div>
+              <button class="clear-cart button-clear_all" role="button">Șterge tot</button>
+          </div>
+          
+        </div>
+      </div>
+      <div class="produs_popup">
+        <div class="produs_popup-inner">
+          <div class="produs_popup-content grid">
+            <span class="produs_popup-close"><i class="uil-times"></i></span>
+            <div class="pp_thumbnail">
+              <img
+                src="assets/img/x.png"
+                alt=""
+                class="produs_popup-img"
+              />
+            </div>
+            <div class="produs_popup-info">
+              <div class="produs_popup-body">
+                <h3 class="details_title"></h3>
+                <p class="details_description">
+                  <b>78 de flashcards detaliate</b>: Fiecare flashcard conține informații cheie, întrebări și răspunsuri, pentru o învățare eficientă.
+                </p>
+                <ul class="details_info">
+                  <li><b>Structură Logică</b> - <span>Informația este organizată într-o secvență logică, ușor de urmărit.</span></li>
+                  <li><b>Design Atrăgător</b> - <span>Flashcardurile noastre nu sunt doar utile, ci și plăcute din punct de vedere vizual.</span></li>
+                  <br>
+                  <li><b>Din ce manual și capitol?</b></li>
+                  <ul>
+                    <li>•	Manual Barron’s</li>
+                    <li>•	Capitolul 1 – Introducere în anatomie și fiziologie</li>
+                  </ul>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Footer -->
+      <script src="./app.js"></script>
+      <script src="./scrol.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+      <script type="text/javascript" src="./index3.js"></script>
+      <script type="text/javascript" src="./question.js"></script>
+      <script src="./mixitup.min.js"></script>
+      <script src="./swiper-bundle.min.js"></script>
+      <script src="./main.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <script src="./shoping-cart.js"></script>
+      <script src="./submit.js"></script>
+    </div>
+  </body>
+</html>
